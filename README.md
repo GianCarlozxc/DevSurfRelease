@@ -4,13 +4,13 @@ Windows installer and portable downloads for **Devsurf**.
 
 ## Download
 
-Download [Devsurf Setup 1.2.0](https://github.com/GianCarlozxc/DevSurfRelease/releases/download/v1.2.0/Devsurf-Setup-1.2.0.exe) and run it. Setup installs the app and creates a desktop shortcut named **Devsurf**, without `.exe` in the desktop label. No extraction is needed.
+Download [Devsurf Setup 1.3.0](https://github.com/GianCarlozxc/DevSurfRelease/releases/download/v1.3.0/Devsurf-Setup-1.3.0.exe) and run it. Setup installs the app and creates a desktop shortcut named **Devsurf**, without `.exe` in the desktop label. No extraction is needed.
 
 The [latest release](https://github.com/GianCarlozxc/DevSurfRelease/releases/latest) also provides an optional portable ZIP used by the in-app updater. **SHA256SUMS.txt** covers both downloads.
 
 ## AI setup
 
-Public builds contain no developer API keys or personal browser data. For Groq chat, set your own `GROQ_API_KEY` environment variable before launching. Alternatively, run Ollama locally and select an installed model. Free AI Horde image generation is subject to service availability and queues.
+Public builds contain no developer API keys or personal browser data. Groq chat connects automatically through the hosted DevSurf AI service without a user API key. Messages pass through DevSurf AI to Groq; shared usage limits apply. Alternatively, use your own `GROQ_API_KEY` or run Ollama locally and select an installed model. Free AI Horde image generation is subject to service availability and queues.
 
 ## Source
 
