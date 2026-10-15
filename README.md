@@ -4,7 +4,7 @@ Windows installer and portable downloads for **Devsurf**.
 
 ## Download
 
-Download [Devsurf Setup 1.5.0](https://github.com/GianCarlozxc/DevSurfRelease/releases/download/v1.5.0/Devsurf-Setup-1.5.0.exe) and run it. Setup installs the app and creates a desktop shortcut named **Devsurf**, without `.exe` in the desktop label. No extraction is needed.
+Download [Devsurf Setup 1.6.0](https://github.com/GianCarlozxc/DevSurfRelease/releases/download/v1.6.0/Devsurf-Setup-1.6.0.exe) and run it. Setup installs the app and creates a desktop shortcut named **Devsurf**, without `.exe` in the desktop label. No extraction is needed.
 
 The [latest release](https://github.com/GianCarlozxc/DevSurfRelease/releases/latest) also provides an optional portable ZIP used by the in-app updater. **SHA256SUMS.txt** covers both downloads.
 
@@ -26,3 +26,5 @@ DevSurf 1.4.0 adds website isolation hardening, HTTPS-first, site-data clearing 
 Version 1.4.1 fixes staging failures caused by Electron treating its demo .asar archive as a virtual directory. New downloads omit the unused archive so older updaters can install this version too. Check again for 1.4.1 and leave the browser open through verification, unpacking and preparation until it restarts.
 
 Version 1.5.0 adds five free-eligible LLM7 text models. LLM7 credentials are protected with Windows account encryption outside the installation and are not bundled in downloads. The LLM7 model group appears only on Windows accounts configured with their own key; hosted Groq continues to work for public users. Provider quotas and terms apply.
+
+Version 1.6.0 adds Gemini 3.8 Flash, Gemini 3.5 Flash-Lite and Gemini 3.1 Flash-Lite through Google AI Studio. Keys stay encrypted on the configured Windows account and are excluded from downloads. Google free-tier quotas, project billing settings and data-use terms apply. Paid Google models/tools are not enabled.
