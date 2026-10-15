@@ -4,7 +4,7 @@ Windows installer and portable downloads for **Devsurf**.
 
 ## Download
 
-Download [Devsurf Setup 1.6.0](https://github.com/GianCarlozxc/DevSurfRelease/releases/download/v1.6.0/Devsurf-Setup-1.6.0.exe) and run it. Setup installs the app and creates a desktop shortcut named **Devsurf**, without `.exe` in the desktop label. No extraction is needed.
+Download [Devsurf Setup 1.7.0](https://github.com/GianCarlozxc/DevSurfRelease/releases/download/v1.7.0/Devsurf-Setup-1.7.0.exe) and run it. Setup installs the app and creates a desktop shortcut named **Devsurf**, without `.exe` in the desktop label. No extraction is needed.
 
 The [latest release](https://github.com/GianCarlozxc/DevSurfRelease/releases/latest) also provides an optional portable ZIP used by the in-app updater. **SHA256SUMS.txt** covers both downloads.
 
@@ -28,3 +28,5 @@ Version 1.4.1 fixes staging failures caused by Electron treating its demo .asar 
 Version 1.5.0 adds five free-eligible LLM7 text models. LLM7 credentials are protected with Windows account encryption outside the installation and are not bundled in downloads. The LLM7 model group appears only on Windows accounts configured with their own key; hosted Groq continues to work for public users. Provider quotas and terms apply.
 
 Version 1.6.0 adds Gemini 3.8 Flash, Gemini 3.5 Flash-Lite and Gemini 3.1 Flash-Lite through Google AI Studio. Keys stay encrypted on the configured Windows account and are excluded from downloads. Google free-tier quotas, project billing settings and data-use terms apply. Paid Google models/tools are not enabled.
+
+Version 1.7.0 adds four verified zero-cost OpenRouter variants: Nemotron 3 Super 120B, Gemma 4 26B A4B, North Mini Code and Dots3-Note Preview. OpenRouter requires its own API key; unconfigured accounts see Key required. The owner key stays protected on its Windows account and is excluded from source and downloads. Free account quotas, provider data-use terms and availability apply. Live catalogue price checks, zero-price routing caps and disabled paid fallbacks keep this integration limited to the approved free variants.
