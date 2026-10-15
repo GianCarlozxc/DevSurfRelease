@@ -4,7 +4,7 @@ Windows installer and portable downloads for **Devsurf**.
 
 ## Download
 
-Download [Devsurf Setup 1.7.3](https://github.com/GianCarlozxc/DevSurfRelease/releases/download/v1.7.3/Devsurf-Setup-1.7.3.exe) and run it. Setup installs the app and creates a desktop shortcut named **Devsurf**, without `.exe` in the desktop label. No extraction is needed.
+Download [Devsurf Setup 1.8.0](https://github.com/GianCarlozxc/DevSurfRelease/releases/download/v1.8.0/Devsurf-Setup-1.8.0.exe) and run it. Setup installs the app and creates a desktop shortcut named **Devsurf**, without `.exe` in the desktop label. No extraction is needed.
 
 The [latest release](https://github.com/GianCarlozxc/DevSurfRelease/releases/latest) also provides an optional portable ZIP used by the in-app updater. **SHA256SUMS.txt** covers both downloads.
 
@@ -36,3 +36,5 @@ Version 1.7.1 distinguishes OpenRouter upstream model throttling from daily acco
 Version 1.7.2 adds smooth opening and closing tab animations. New tabs expand and fade in; closed tabs shrink and fade out while the actual browser tab closes immediately. Rapid actions preserve tab order, and system reduced-motion preferences disable the effects.
 
 Version 1.7.3 adds content transitions for tab switching and the New Tab page, while newly created tabs remain automatically selected. App tests and CI were skipped at the owner's request for manual verification. Release integrity and update-signature checks remain enabled.
+
+Version 1.8.0 adds opt-in AI Browser help (+ > Browser help) for listing tabs, opening/searching websites, switching, scrolling and reading approved visible page text. Page actions ask for approval, and consent resets after each message. It requires a tool-capable model; it cannot submit forms or access credentials. Page text goes to the selected AI provider. App tests and CI were skipped at the owner's request for manual verification; release integrity and update-signature checks remain enabled.
