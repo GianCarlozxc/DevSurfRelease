@@ -4,7 +4,7 @@ Windows installer and portable downloads for **Devsurf**.
 
 ## Download
 
-Download [Devsurf Setup 1.4.0](https://github.com/GianCarlozxc/DevSurfRelease/releases/download/v1.4.0/Devsurf-Setup-1.4.0.exe) and run it. Setup installs the app and creates a desktop shortcut named **Devsurf**, without `.exe` in the desktop label. No extraction is needed.
+Download [Devsurf Setup 1.4.1](https://github.com/GianCarlozxc/DevSurfRelease/releases/download/v1.4.1/Devsurf-Setup-1.4.1.exe) and run it. Setup installs the app and creates a desktop shortcut named **Devsurf**, without `.exe` in the desktop label. No extraction is needed.
 
 The [latest release](https://github.com/GianCarlozxc/DevSurfRelease/releases/latest) also provides an optional portable ZIP used by the in-app updater. **SHA256SUMS.txt** covers both downloads.
 
@@ -22,3 +22,5 @@ v1.0.0 users need to download the latest release once to get the updater. Future
 If an older build remains open after downloading an update, install v1.4.0 manually once. It fixes the Windows helper lifetime and update shutdown; future in-app updates restart the new version automatically.
 
 DevSurf 1.4.0 adds website isolation hardening, HTTPS-first, site-data clearing and risky-download warnings. Future updates require an Ed25519-signed update-manifest.json verified against the public key pinned in the app, alongside SHA-256 checks. Versions before 1.4.0 do not enforce this signature policy. Install the trusted initial 1.4.0 build to establish the pinned key. Windows publisher signing is separate and remains unconfigured; the EXE is not Authenticode-signed. Anonymous AI retains shared service limits.
+
+Version 1.4.1 fixes staging failures caused by Electron treating its demo .asar archive as a virtual directory. New downloads omit the unused archive so older updaters can install this version too. Check again for 1.4.1 and leave the browser open through verification, unpacking and preparation until it restarts.
