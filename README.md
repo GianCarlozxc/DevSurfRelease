@@ -18,4 +18,4 @@ The source code is maintained in [GianCarlozxc/Devsurf](https://github.com/GianC
 
 Starting with v1.1.0, go to **Settings > About DevSurf > Check for updates**, then select **Update and restart**. Downloads, verification and installation happen inside the app, followed by an automatic restart. Browser profiles and local AI configuration are preserved. The previous installation is restored if the replacement fails to start.
 
-v1.0.0 users need to download v1.1.0 once to get the updater. Future stable releases use the in-app update flow; prereleases and older versions are ignored.
+v1.0.0 users need to download the latest release once to get the updater. Future stable releases use the in-app update flow; prereleases and older versions are ignored.
