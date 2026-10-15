@@ -1,10 +1,12 @@
 # DevSurf releases
 
-Windows portable downloads for **DevSurf**.
+Windows installer and portable downloads for **Devsurf**.
 
 ## Download
 
-Open the [latest release](https://github.com/GianCarlozxc/DevSurfRelease/releases/latest), download the Windows x64 ZIP, extract the entire folder, then run **DevSurf.exe**. Keep all extracted files together. Verify the ZIP using the accompanying **SHA256SUMS.txt**.
+Download [Devsurf Setup 1.2.0](https://github.com/GianCarlozxc/DevSurfRelease/releases/download/v1.2.0/Devsurf-Setup-1.2.0.exe) and run it. Setup installs the app and creates a desktop shortcut named **Devsurf**, without `.exe` in the desktop label. No extraction is needed.
+
+The [latest release](https://github.com/GianCarlozxc/DevSurfRelease/releases/latest) also provides an optional portable ZIP used by the in-app updater. **SHA256SUMS.txt** covers both downloads.
 
 ## AI setup
 
