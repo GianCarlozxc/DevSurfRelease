@@ -12,9 +12,6 @@ The [latest release](https://github.com/GianCarlozxc/DevSurfRelease/releases/lat
 
 Public builds contain no developer API keys or personal browser data. Groq chat connects automatically through the hosted DevSurf AI service without a user API key. Messages pass through DevSurf AI to Groq; shared usage limits apply. Alternatively, use your own `GROQ_API_KEY` or run Ollama locally and select an installed model. Free AI Horde image generation is subject to service availability and queues.
 
-## Source
-
-The source code is maintained in [GianCarlozxc/Devsurf](https://github.com/GianCarlozxc/Devsurf), a private repository that requires access. This repository hosts downloadable builds and release notes. Third-party notices and component source references are included in each download.
 
 ## Update inside DevSurf
 
