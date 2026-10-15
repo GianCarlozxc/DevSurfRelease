@@ -4,7 +4,7 @@ Windows installer and portable downloads for **Devsurf**.
 
 ## Download
 
-Download [Devsurf Setup 1.7.1](https://github.com/GianCarlozxc/DevSurfRelease/releases/download/v1.7.1/Devsurf-Setup-1.7.1.exe) and run it. Setup installs the app and creates a desktop shortcut named **Devsurf**, without `.exe` in the desktop label. No extraction is needed.
+Download [Devsurf Setup 1.7.2](https://github.com/GianCarlozxc/DevSurfRelease/releases/download/v1.7.2/Devsurf-Setup-1.7.2.exe) and run it. Setup installs the app and creates a desktop shortcut named **Devsurf**, without `.exe` in the desktop label. No extraction is needed.
 
 The [latest release](https://github.com/GianCarlozxc/DevSurfRelease/releases/latest) also provides an optional portable ZIP used by the in-app updater. **SHA256SUMS.txt** covers both downloads.
 
@@ -32,3 +32,5 @@ Version 1.6.0 adds Gemini 3.8 Flash, Gemini 3.5 Flash-Lite and Gemini 3.1 Flash-
 Version 1.7.0 adds four verified zero-cost OpenRouter variants: Nemotron 3 Super 120B, Gemma 4 26B A4B, North Mini Code and Dots3-Note Preview. OpenRouter requires its own API key; unconfigured accounts see Key required. The owner key stays protected on its Windows account and is excluded from source and downloads. Free account quotas, provider data-use terms and availability apply. Live catalogue price checks, zero-price routing caps and disabled paid fallbacks keep this integration limited to the approved free variants.
 
 Version 1.7.1 distinguishes OpenRouter upstream model throttling from daily account quota exhaustion. Valid retry delays are shown; raw provider errors are not exposed. This clarifies the Gemma 4 error without bypassing free-service limits or enabling paid fallbacks.
+
+Version 1.7.2 adds smooth opening and closing tab animations. New tabs expand and fade in; closed tabs shrink and fade out while the actual browser tab closes immediately. Rapid actions preserve tab order, and system reduced-motion preferences disable the effects.
