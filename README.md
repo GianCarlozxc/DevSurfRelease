@@ -4,7 +4,7 @@ Windows installer and portable downloads for **Devsurf**.
 
 ## Download
 
-Download [Devsurf Setup 1.8.1](https://github.com/GianCarlozxc/DevSurfRelease/releases/download/v1.8.1/Devsurf-Setup-1.8.1.exe) and run it. Setup installs the app and creates a desktop shortcut named **Devsurf**, without `.exe` in the desktop label. No extraction is needed.
+Download [Devsurf Setup 1.8.2](https://github.com/GianCarlozxc/DevSurfRelease/releases/download/v1.8.2/Devsurf-Setup-1.8.2.exe) and run it. Setup installs the app and creates a desktop shortcut named **Devsurf**, without `.exe` in the desktop label. No extraction is needed.
 
 The [latest release](https://github.com/GianCarlozxc/DevSurfRelease/releases/latest) also provides an optional portable ZIP used by the in-app updater. **SHA256SUMS.txt** covers both downloads.
 
@@ -40,3 +40,5 @@ Version 1.7.3 adds content transitions for tab switching and the New Tab page, w
 Version 1.8.0 adds opt-in AI Browser help (+ > Browser help) for listing tabs, opening/searching websites, switching, scrolling and reading approved visible page text. Page actions ask for approval, and consent resets after each message. It requires a tool-capable model; it cannot submit forms or access credentials. Page text goes to the selected AI provider. App tests and CI were skipped at the owner's request for manual verification; release integrity and update-signature checks remain enabled.
 
 Version 1.8.1 hides Memory & tools from the AI sidebar while preserving existing saved data. Browser help stays available through the + menu. App testing remains manual at the owner's request; release integrity and signature verification remain enabled.
+
+Version 1.8.2 fixes missing or generic download extensions using the received content type, and preserves extensions when renaming downloads. All 88 automated tests and focused save-dialog checks passed; the full desktop smoke test encountered an unrelated HTTPS fixture error.
